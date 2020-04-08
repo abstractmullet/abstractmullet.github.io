@@ -84,6 +84,10 @@
      font-size: 1.2em;
  }
 
+.box ul, .box ol {
+     padding: 0 40px 10px 40px;
+ }
+
  .box p:first-of-type {
      padding-top: 40px;
  }
