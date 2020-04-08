@@ -84,8 +84,13 @@
      font-size: 1.2em;
  }
 
-.box ul, .box ol {
+ .box ul,
+ .box ol {
      padding: 0 80px 40px;
+ }
+
+ .box li {
+     margin-bottom: 10px;
  }
 
  .box p:first-of-type {
