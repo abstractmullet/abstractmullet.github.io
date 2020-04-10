@@ -58,3 +58,8 @@ span.h2 {
 .banner:after {
     background-image: none;
 }
+
+.mjt-left.more-link p {
+    font-size: 1.5em;
+    line-height: 1.5;
+}
