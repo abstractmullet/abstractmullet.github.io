@@ -31,7 +31,7 @@ span.h2 {
 }
 
 #content-banner {
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 @media only screen and (min-width: 768px) {
