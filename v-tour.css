@@ -11,6 +11,11 @@ span.h1 {
         font-size: 36px;
         line-height: 50px;
     }
+
+    .block-entity-fieldnodefield-banner-subheadline {
+        max-width: 40vw;
+        margin: 0 auto;
+    }
 }
 
 h2,
