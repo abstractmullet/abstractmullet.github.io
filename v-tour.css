@@ -23,3 +23,7 @@ span.h1 {
 #content-banner {
     min-height: 100vh;
 }
+
+.banner .container {
+    z-index: 200;
+}
