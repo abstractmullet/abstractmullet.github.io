@@ -1,0 +1,49 @@
+@import url("https://abstractmullet.github.io/j.css");
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+    }
+
+    .wrapper h3 {
+        font-weight: 600;
+        font-size: 60px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    ul.col {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        column-gap: 40px;
+    }
+
+    ul.col li {
+        font-size: 18px;
+    }
+
+    .h5 {
+        margin-top: 30 px;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 30px;
+        font-family: "proxima-nova", Arial;
+    }
+
+    .wrapper .text-center {
+        padding-top: 15%;
+    }
+
+    /* Medium devices (landscape tablets, 900px and up) */
+    @media only screen and (max-width: 900px) {
+        .wrapper {
+            grid-template-columns: 100%;
+            margin-top: 10px;
+        }
+
+        .wrapper .text-center {
+            padding-top: 0;
+        }
+    }
