@@ -24,19 +24,15 @@
   border-right-width:0;
 }
 
-.tabset > ul li:first-child label {
-  border-radius:0.5em 0 0 0;
-}
+
 
 .tabset > ul li:last-child label {
   border-right-width:1px;
-  border-radius:0 0.5em 0 0;
 }
 
 .tabset > div {
   position:relative;
   background:hsl(220, 100%, 98%);
-  border-radius:0 0.5em 0.5em 0.5em;
 }
 
 .tabset > input:nth-child(1):focus ~ ul li:nth-child(1) label,
