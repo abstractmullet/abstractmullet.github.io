@@ -32,7 +32,7 @@
 
 .tabset > div {
   position:relative;
-  background:hsl(220, 100%, 98%);
+  background:hsl(220deg 82% 98% / 70%);
 }
 
 .tabset > input:nth-child(1):focus ~ ul li:nth-child(1) label,
@@ -56,8 +56,8 @@
 .tabset > input:nth-child(7):checked ~ ul li:nth-child(7) label,
 .tabset > input:nth-child(8):checked ~ ul li:nth-child(8) label,
 .tabset > input:nth-child(9):checked ~ ul li:nth-child(9) label {
-  background:hsl(220, 100%, 98%);
-  border-bottom-color:hsl(220, 100%, 98%);
+  background:hsl(220deg 82% 98% / 70%);
+  border-bottom-color:hsl(220deg 82% 98% / 70%);
 }
 
 .tabset > div > section,
