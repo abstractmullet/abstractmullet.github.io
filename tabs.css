@@ -20,7 +20,7 @@
 .tabset > ul label {
   display:inline-block;
   padding:0.25em 1em;
-  background:#f3f6f9;
+  background: hsl(220deg 82% 98% / 70%);
   border-right-width:0;
 }
 
