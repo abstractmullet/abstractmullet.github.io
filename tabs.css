@@ -20,7 +20,7 @@
 .tabset > ul label {
   display:inline-block;
   padding:0.25em 1em;
-  background:#e1eaf9;
+  background:#f3f6f9;
   border-right-width:0;
 }
 
@@ -35,7 +35,7 @@
   background:hsl(220deg 82% 98% / 70%);
 }
 
-.tabset > input:nth-child(1):focus ~ ul li:nth-child(1) label,
+/* .tabset > input:nth-child(1):focus ~ ul li:nth-child(1) label,
 .tabset > input:nth-child(2):focus ~ ul li:nth-child(2) label,
 .tabset > input:nth-child(3):focus ~ ul li:nth-child(3) label,
 .tabset > input:nth-child(4):focus ~ ul li:nth-child(4) label,
@@ -45,7 +45,7 @@
 .tabset > input:nth-child(8):focus ~ ul li:nth-child(8) label,
 .tabset > input:nth-child(9):focus ~ ul li:nth-child(9) label {
 	text-decoration:underline;
-}
+} */
 
 .tabset > input:nth-child(1):checked ~ ul li:nth-child(1) label,
 .tabset > input:nth-child(2):checked ~ ul li:nth-child(2) label,
@@ -56,8 +56,9 @@
 .tabset > input:nth-child(7):checked ~ ul li:nth-child(7) label,
 .tabset > input:nth-child(8):checked ~ ul li:nth-child(8) label,
 .tabset > input:nth-child(9):checked ~ ul li:nth-child(9) label {
-  background:hsl(220deg 82% 98% / 70%);
-  border-bottom-color:hsl(220deg 82% 98% / 70%);
+    background: hsl(216deg 93% 22%);
+    border-bottom-color: hsl(220deg 82% 98% / 70%);
+    color: #fff;
 }
 
 .tabset > div > section,
